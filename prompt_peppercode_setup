@@ -1,6 +1,6 @@
 #
-# A fork of PeepCode (http://peepcode.com/blog/2012/my-command-line-prompt)
-#
+# A shameless fork of PeepCode theme (http://peepcode.com/blog/2012/my-command-line-prompt)
+# 
 
 function prompt_peppercode_precmd {
   # Get Git repository information.
@@ -41,8 +41,6 @@ function prompt_peppercode_setup {
   zstyle ':prezto:module:ruby:info:version' format ' %F{white}%v%f'
 
   # Define prompts.
-#  PROMPT="
-#%(?.%F{red}${1:-☻ }%f.%F{red}${1:-☻ }%f) "
   PROMPT="
 %(!~%F{white}${1:-❯❯ }%f~%F{white}${1:-❯ }%f) "
 RPROMPT='%~ ${ruby_info[version]}${git_info[rprompt]}'
@@ -55,7 +53,7 @@ This prompt's last command exit status symbol is customizable:
 
   prompt peppercode [<symbol>]
 
-If this option is not provided, the symbol defaults to ☻.
+If this option is not provided, the symbol defaults to ❯.
 EOH
 }
 
