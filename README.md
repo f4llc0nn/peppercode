@@ -1,11 +1,11 @@
 A shameless fork of ZSH PeepCode theme.
 One-liner and clean.
 
-Features:
+Features (more like modifications =P):
 - ❯ for normal user
 - ❯❯ for root/elevated-privileges-shell
 - red ❯ (or ❯❯) if previous command failed
-- current dir + git in RPROMPT (auto-ommited if command is long)
+- current_dir+git in RPROMPT (auto-ommited if command is long)
 
 Install:
 
