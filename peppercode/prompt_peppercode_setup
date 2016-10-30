@@ -42,9 +42,8 @@ function prompt_peppercode_setup {
 
   # Define prompts.
   PROMPT="
+%~ ${ruby_info[version]}${git_info[rprompt]}
 %(?,%(!~%F{white}${1:-❯❯ }%f~%F{white}${1:-❯ }%f),%(!~%F{red}${1:-❯❯ }%f~%F{red}${1:-❯ }%f))"
-RPROMPT='%~ ${ruby_info[version]}${git_info[rprompt]}'
-
 }
 
 function prompt_peppercode_help {
